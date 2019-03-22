@@ -5,7 +5,7 @@ Transform a METS file from Transkribus to Aletheia METS file (Page Collections f
 
 Requirements for a METS file
 ------------
-- The METS file from Transkribus ``mets.xml``. During document export the Mets file is created.
+- The METS file from Transkribus ``mets.xml``. During document export the Mets file is created. The METS file is located in the main directory of the exported file folder.
 
 
 Transformation
