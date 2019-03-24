@@ -57,19 +57,7 @@
     
     <xsl:template match="ns3:fileGrp[@ID = 'ALTO']"/>
     
-    <xsl:template match="ns3:structMap/ns3:div/ns3:div/ns3:fptr/ns3:area">
-        <xsl:choose>
-            <xsl:when test="starts-with(@FILEID, 'ALTO')"/>
-            <xsl:otherwise>
-                Hallo
-            </xsl:otherwise>
-        </xsl:choose>
-            
-    </xsl:template>
     
-    
-    
-
     <xsl:template match="@ns2:*">
         <xsl:attribute name="xlink:{local-name()}">
             <xsl:value-of select="."/>
